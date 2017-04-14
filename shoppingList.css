@@ -1,0 +1,46 @@
+
+body {
+  width: 400px;
+  height: 600px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+
+}
+
+p {
+  text-indent: 20px;
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 140px;
+
+}
+
+ul {
+  font-size: 20px;
+  align-self: center;
+}
+
+li.faded {
+    opacity: 0.4;
+    text-decoration: line-through;
+}
+
+li.hover {
+  background-color: #D3D3D3;
+}
+
+li {
+  height: 20px;
+  margin: 5px;
+  width: 150px;
+}
+
+form {
+  padding-top: 40px;
+}
