@@ -35,7 +35,7 @@ $(document).ready(function() {
 $('#shoppingList').on('click', 'li', function () {
     $(this).toggleClass('faded');
 });
-    $('#clear').dblclick(function() {
+    $('#clear').click(function() {
         $(shoppingList).empty()
 });
 });
