@@ -38,6 +38,33 @@ $('#shoppingList').on('click', 'li', function () {
     $('#clear').click(function() {
         $(shoppingList).empty()
 });
+
+
+var seconds = 0
+var minutes = 0
+var hours = 0
+
+/*  var timer = function() {
+
+      if (seconds <= 59)
+        seconds +=1
+
+      if (seconds == 60) {
+        minutes += 1
+        seconds = 0
+      }
+      if (minutes == 60) {
+        hours += 1
+        minutes = 0
+      }
+      var time = hours + ":" + minutes + ":" + seconds
+      console.log(time)
+      $("#header").text(time)
+
+  }
+  var myVar = setInterval(timer, 1000);
+  timer() */
+
 });
 
 
